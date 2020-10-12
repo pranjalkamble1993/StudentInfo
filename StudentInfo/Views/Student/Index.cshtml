@@ -1,0 +1,67 @@
+﻿@model IEnumerable<StudentData>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Student Information</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParentName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentClass)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParentEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParentMobile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Active)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentName)                
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParentName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentClass)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParentEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParentMobile)
+            </td>
+			<td>
+				@if (item.Active == true)
+				{
+				    <input checked="checked" class="form-control" disabled="disabled" type="checkbox" style="height: 20px; margin: 4px 0px 0px -15px;">				
+				}
+				else if (item.Active == false)
+				{
+					<input class="form-control" disabled="disabled" type="checkbox" style="height: 20px; margin: 4px 0px 0px -15px;">
+				}
+			</td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { item.Id, item.StudentName, item.ParentName, item.StudentClass, item.ParentEmail, item.ParentMobile, item.Active })                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
