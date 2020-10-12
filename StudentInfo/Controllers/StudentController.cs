@@ -87,9 +87,6 @@ namespace StudentInfo.Controllers
 		{
 			List<StudentData> studentDatas = new List<StudentData>();
 
-			var allUsers = new List<Users>();
-			allUsers = _studentContext.Users.OrderBy(a => a.Id).ToList();
-
 			var parentStudentId = new List<ParentStudent>();
 			parentStudentId = _studentContext.ParentStudent.OrderBy(a => a.Id).ToList();
 			foreach (var item in parentStudentId)
