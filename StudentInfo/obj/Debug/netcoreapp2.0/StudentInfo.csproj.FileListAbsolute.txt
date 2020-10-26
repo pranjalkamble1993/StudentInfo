@@ -1,0 +1,16 @@
+E:\Test\StudentInfo\StudentInfo\StudentInfo\bin\Debug\netcoreapp2.0\appsettings.Development.json
+E:\Test\StudentInfo\StudentInfo\StudentInfo\bin\Debug\netcoreapp2.0\appsettings.json
+E:\Test\StudentInfo\StudentInfo\StudentInfo\bin\Debug\netcoreapp2.0\bower.json
+E:\Test\StudentInfo\StudentInfo\StudentInfo\bin\Debug\netcoreapp2.0\bundleconfig.json
+E:\Test\StudentInfo\StudentInfo\StudentInfo\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+E:\Test\StudentInfo\StudentInfo\StudentInfo\bin\Debug\netcoreapp2.0\StudentInfo.deps.json
+E:\Test\StudentInfo\StudentInfo\StudentInfo\bin\Debug\netcoreapp2.0\StudentInfo.runtimeconfig.json
+E:\Test\StudentInfo\StudentInfo\StudentInfo\bin\Debug\netcoreapp2.0\StudentInfo.runtimeconfig.dev.json
+E:\Test\StudentInfo\StudentInfo\StudentInfo\bin\Debug\netcoreapp2.0\StudentInfo.dll
+E:\Test\StudentInfo\StudentInfo\StudentInfo\bin\Debug\netcoreapp2.0\StudentInfo.pdb
+E:\Test\StudentInfo\StudentInfo\StudentInfo\obj\Debug\netcoreapp2.0\StudentInfo.AssemblyInfoInputs.cache
+E:\Test\StudentInfo\StudentInfo\StudentInfo\obj\Debug\netcoreapp2.0\StudentInfo.AssemblyInfo.cs
+E:\Test\StudentInfo\StudentInfo\StudentInfo\obj\Debug\netcoreapp2.0\StudentInfo.csproj.CoreCompileInputs.cache
+E:\Test\StudentInfo\StudentInfo\StudentInfo\obj\Debug\netcoreapp2.0\StudentInfo.dll
+E:\Test\StudentInfo\StudentInfo\StudentInfo\obj\Debug\netcoreapp2.0\StudentInfo.pdb
+E:\Test\StudentInfo\StudentInfo\StudentInfo\obj\Debug\netcoreapp2.0\StudentInfo.genruntimeconfig.cache
